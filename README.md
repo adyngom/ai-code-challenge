@@ -49,7 +49,11 @@ This project uses a "learn by doing" approach, evolving through 4 distinct phase
     uv sync
     ```
 3.  **Environment:** Set your `GOOGLE_API_KEY` in a `.env` file.
-4.  **Run an Agent:**
+4. **View and debug all agents:**
+    ```bash
+    adk web
+    ```
+5.  **Run an Agent:**
     ```bash
     adk run greeting_agent
     ```
