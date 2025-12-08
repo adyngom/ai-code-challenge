@@ -11,7 +11,7 @@ def get_company_info() -> dict:
     This tool provides details about the organization and ongoing AI agent projects.
 
     INSTRUCTOR NOTE: Students will customize this with their own company/project
-    information as their first hands-on exercise in the workshop.
+    information as their first hands-on exercise in the class.
 
     Returns:
         dict: Company information including name, industry, and current AI initiatives
@@ -41,7 +41,7 @@ def get_current_time() -> dict:
     from datetime import timezone, timedelta
 
     # Eastern Time is UTC-5 (EST) or UTC-4 (EDT)
-    # Using EST for consistency with workshop location
+    # Using EST for consistency with class location
     eastern = timezone(timedelta(hours=-5))
     now = datetime.now(eastern)
 
@@ -53,16 +53,16 @@ def get_current_time() -> dict:
     }
 
 
-def get_workshop_roadmap() -> dict:
-    """Get the complete 9-agent workshop progression.
+def get_class_roadmap() -> dict:
+    """Get the complete 9-agent class progression.
 
     Shows all agents students will build, from foundation to production-grade systems.
 
     Returns:
-        dict: Workshop roadmap with all 9 agents and their patterns
+        dict: class roadmap with all 9 agents and their patterns
     """
     return {
-        "workshop_title": "Building Production AI Agents with ADK + FastAPI",
+        "class_title": "Building Production AI Agents with ADK + FastAPI",
         "total_agents": 9,
         "duration": "4 hours",
         "phases": [
@@ -89,5 +89,5 @@ def get_workshop_roadmap() -> dict:
         ],
         "current_step": 1,
         "next_agent": "customer_service",
-        "progression_file": "workshop_progression.yaml"
+        "progression_file": "class_progression.yaml"
     }
