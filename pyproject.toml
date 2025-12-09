@@ -19,3 +19,6 @@ dependencies = [
     "uvicorn==0.38.0",
     "streamlit>=1.52.1",
 ]
+
+[tool.setuptools]
+packages = ["greeting_agent", "thoughtful_ai_agent"]
