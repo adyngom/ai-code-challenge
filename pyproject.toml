@@ -17,4 +17,5 @@ dependencies = [
     "runtime>=0.1.4",
     "starlette==0.48.0",
     "uvicorn==0.38.0",
+    "streamlit>=1.52.1",
 ]

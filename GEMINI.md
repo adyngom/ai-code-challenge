@@ -52,7 +52,14 @@ adk run greeting_agent
 # Launch the web interface for testing
 adk web
 ```
-*Note: The ADK Web UI typically starts on port 3002.*
+*Note: The ADK Web UI typically starts on port 8000.*
+
+**Using the Streamlit Interface:**
+```bash
+# Run the Streamlit app for interaction
+uv run streamlit run streamlit_app.py`
+```
+*Note: The Streamlit Web UI typically starts on port 8501.*
 
 ## Development Conventions
 

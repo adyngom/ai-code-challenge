@@ -53,10 +53,27 @@ This project uses a "learn by doing" approach, evolving through 4 distinct phase
     ```bash
     adk web
     ```
-5.  **Run an Agent:**
-    ```bash
-    adk run greeting_agent
-    ```
+5.  **Run one agent:**
+
+**Using ADK CLI:**
+```bash
+# Run via the ADK command line interface
+adk run greeting_agent
+```
+
+**Using ADK Web UI:**
+```bash
+# Launch the web interface for testing
+adk web
+```
+*Note: The ADK Web UI typically starts on port 8000.*
+
+**Using the Streamlit Interface:**
+```bash
+# Run the Streamlit app for interaction
+uv run streamlit run streamlit_app.py`
+```
+*Note: The Streamlit Web UI typically starts on port 8501.*
 
 ---
 *Designed for the next generation of AI Engineers.*
